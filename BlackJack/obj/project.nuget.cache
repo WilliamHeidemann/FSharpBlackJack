@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xoDvWgvlnV/Mp8rw3WlnHMA174SJjmkv5NMHd8n9/QA3eLpcKtg5O2gvBVeZrMLCq9pQjhSCK4hFhGBA1I1B9Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Willi\\Desktop\\Rider Projects\\BlackJack\\BlackJack\\BlackJack.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Willi\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
