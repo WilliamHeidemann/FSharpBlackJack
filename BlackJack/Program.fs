@@ -5,7 +5,7 @@ open System.Threading
 
 module GamePlay =
     type Card = string
-    type Hand = Card List
+    type Hand = Card list
     type Outcome =
         | Win
         | Loss
@@ -40,11 +40,7 @@ module GamePlay =
         List.sumBy CardValue hand
         
     let Print (str:string) (hand:Hand) =
-        Console.Write str
-        Console.Write (String.concat "" hand)
-        Console.Write " ("
-        Console.Write (HandValue hand)
-        Console.WriteLine ")"
+        Console.WriteLine (str + (String.concat "" hand) + " (" + (HandValue hand).ToString() + ")")
     
     let rec PlaceBet (pot:int) : int =
         Console.WriteLine ("Your pot size is " + pot.ToString())
@@ -116,7 +112,7 @@ module GamePlay =
         
     let Game =
         Console.WriteLine "Game Started"
-        let startingPot = 10
-        Play startingPot
+        let buyIn = 10
+        Play buyIn
         
     Game
